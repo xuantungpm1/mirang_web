@@ -2159,6 +2159,15 @@ input, select, textarea {
 			top: 0;
 		}
 
+		/* 1 row */
+        #row > .icon-img {
+            display: block; 
+			width: 100%; 
+			text-align: center;
+			border-radius: 50%;
+			margin: auto;
+        }
+
 	#nav ul {
 		list-style: none;
 		padding-left: 0;
@@ -2325,6 +2334,14 @@ input, select, textarea {
 			#main {
 				margin-left: 300px;
 			}
+			
+			#row > .icon-img {
+				display: block;
+				width: 100%;
+				text-align: center;
+				border-radius: 50%;
+				margin: auto;
+			}
 
 	}
 
@@ -2408,11 +2425,6 @@ input, select, textarea {
 			#main {
 				margin-left: 20%;
 			}
-
-			#row > .icon-img {
-				float: left; width: 100%; text-align: center;
-			}
-
 	}
 
 /* Narrower */
@@ -2455,7 +2467,11 @@ input, select, textarea {
 			}
         /* 1 row */
         #row > .icon-img {
-            float: left; width: 100%; text-align: center;
+            display: block; 
+			width: 100%; 
+			text-align: center;
+			border-radius: 50%;
+			margin: auto;
         }
        
 		/* Header */
@@ -2672,7 +2688,34 @@ input, select, textarea {
 				#footer .copyright li:first-child {
 					margin-top: 0;
 				}
+		
+		#row > .icon-img {
+			display: block; 
+			width: 100%; 
+			text-align: center;
+			border-radius: 50%;
+			margin: auto;
+		}
 
+	}
+
+	/*New content*/
+
+	/* #row > .icon-img {
+		float: left;
+		width: 100%; 
+		text-align: center;
+		border-radius: 50%;
+	} */
+
+	.company-name {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.sologan-text {
+		text-align: center;
+		margin-top: 10px;
 	}
 
 	.container-content {
@@ -2712,7 +2755,7 @@ input, select, textarea {
 	
 	.story-descriptor {
 		margin-left: 50px;
-		text-align: justify-all;
+		text-align: justify;
 	}
 	
 	.story-descriptor > p {
