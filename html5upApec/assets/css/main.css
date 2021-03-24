@@ -2409,6 +2409,10 @@ input, select, textarea {
 				margin-left: 20%;
 			}
 
+			#row > .icon-img {
+				float: left; width: 100%; text-align: center;
+			}
+
 	}
 
 /* Narrower */
@@ -2449,11 +2453,11 @@ input, select, textarea {
 				width: 1.75em;
 				font-size: 1.25em;
 			}
-        /*1 row
-        #row {
-            float: left; width: 100%; text-align: right;
+        /* 1 row */
+        #row > .icon-img {
+            float: left; width: 100%; text-align: center;
         }
-        */
+       
 		/* Header */
 
 			#header {
@@ -2669,4 +2673,57 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+	}
+
+	.container-content {
+		background-image: url();
+		background-size: cover;
+		width: 100%;
+		height: auto;
+		margin: 20px 0px 20px 0px; 
+	}
+	
+	/* .image-story {
+		width: auto;
+		height: auto;
+	} */
+	
+	#story-img > img{
+		background-color: transparent;
+		border: none;
+		width: 100%;
+		height: auto;
+	}
+	
+	#story-img {
+		background-color: transparent;
+	}
+	
+	.story-title {
+		margin-top: 30px;
+		margin-left: 50px;
+		text-align: center;
+	}
+	
+	.story-title > h1 {
+		color: white;
+		font-size: 50px;
+	}
+	
+	.story-descriptor {
+		margin-left: 50px;
+		text-align: justify-all;
+	}
+	
+	.story-descriptor > p {
+		color: white;
+		font-size: 30px;
+	}
+	
+	.story-content {
+		padding: 20px 20px;
+		margin-left: 20px;
+		margin-top: 20px;
+		border-radius: 20px;
+		background-color: #454b4d;
 	}
