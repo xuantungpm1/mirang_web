@@ -2750,7 +2750,7 @@ input, select, textarea {
 	
 	.story-title > h1 {
 		color: white;
-		font-size: 50px;
+		/* font-size: 50px; */
 	}
 	
 	.story-descriptor {
@@ -2760,7 +2760,7 @@ input, select, textarea {
 	
 	.story-descriptor > p {
 		color: white;
-		font-size: 30px;
+		/* font-size: 30px; */
 	}
 	
 	.story-content {
@@ -2769,4 +2769,26 @@ input, select, textarea {
 		margin-top: 20px;
 		border-radius: 20px;
 		background-color: #454b4d;
+	}
+
+	.value-content {
+		padding: 20px 20px;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	.image-border {
+		border-radius: 40px;
+	}
+
+	.progress-header {
+		margin: auto 0;
+	}
+
+	.progress-timeline {
+		margin: auto 0;
+	}
+
+	.progress-text {
+		margin: auto 0;
 	}
