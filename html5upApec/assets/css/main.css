@@ -1946,7 +1946,7 @@ input, select, textarea {
 	}
 
 		table tbody tr:nth-child(2n+2) {
-			background: #f4f4f4;
+			background: #254f46;
 		}
 
 		table td {
@@ -1955,10 +1955,12 @@ input, select, textarea {
 		}
 
 		table th {
-			text-align: left;
+			text-align: center;
 			padding: 0.5em 1em 0.5em 1em;
 			color: #fff;
-			background: #222729 url("images/overlay.png");
+			background: #899948 url("images/overlay.png");
+			border: 1px solid #dddddd;
+			font-weight: bold;
 		}
 
 		table thead {
@@ -2876,7 +2878,7 @@ input, select, textarea {
 	position: relative;
 	width: 50px;
 	top: -10px;
-	left: -20px;
+	left: -25px;
 	}
 	  #equal:after {
 		background: white;
@@ -2934,7 +2936,49 @@ input, select, textarea {
 		margin-bottom: 20px;
 	}
 
-	.original-content {
+	.original-content, .report-content, .product-detail-content {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+
+	.report-image {
+		margin-bottom: 5px;
+	}
+
+	.detail-image {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.policise-content {
+		padding: 20px 20px;
+		margin-left: 20px;
 		margin-top: 20px;
 		margin-bottom: 20px;
+		margin-right: 20px;
+	}
+
+	.compen-content {
+		position: relative;
+		width: 100%;
+		height: 500px;
+		left: 0;
+		top: 0;
+		margin: 0px 0px;
+		background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+						  url(../../images/compen.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-color:  rgba(13, 15, 18, 0.8), ;
+	}
+
+	#compen-image {
+		position: relative;
+		opacity: 1;
+		left: 0;
+		top: 0;
+	}
+	
+	.text-center {
+		text-align: center;
 	}
