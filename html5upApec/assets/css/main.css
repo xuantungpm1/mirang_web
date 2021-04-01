@@ -2738,7 +2738,6 @@ input, select, textarea {
 	}
 
 	.container-content {
-		background-image: url();
 		background-size: cover;
 		width: 100%;
 		height: auto;
@@ -2779,55 +2778,33 @@ input, select, textarea {
 	
 	.story-descriptor > p {
 		color: white;
-		/* font-size: 30px; */
 	}
 	
 	.story-content {
 		padding: 20px 20px;
-		margin-left: 20px;
+		margin-left: 10px;
 		margin-top: 20px;
 		border-radius: 20px;
 		background-color: #454b4d;
 	}
 
 	.value-content {
-		padding: 20px 20px;
-		margin-left: 20px;
-		margin-top: 20px;
+		padding: 10px 10px;
+		/* margin-left: 20px; */
+		/* margin-top: 20px; */
 	}
 
 	.image-border {
 		border-radius: 40px;
 	}
 
-	.value-content {
-		padding: 20px 20px;
-		margin-left: 20px;
-		margin-top: 20px;
-
-	}
-
-	.progress-header {
-		margin: auto 0;
-	}
-
-	.progress-timeline {
+	.progress-header, .progress-timeline, .center-vertical {
 		margin: auto 0;
 	}
 
 	.progress-text {
 		margin: auto 0;
 		padding: auto;
-	}
-
-	.center-vertical {
-		margin: auto 0;
-	}
-
-	.value-content {
-		padding: 20px 20px;
-		margin-left: 20px;
-		margin-top: 20px;
 	}
 
 	.company-content {
