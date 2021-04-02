@@ -89,7 +89,8 @@
 								else if ($this.hasClass('active-locked'))
 									$this.removeClass('active-locked');
 
-						}
+						},
+						delay:100,
 					});
 
 			});
